@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* header */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -16,10 +18,64 @@
   /* выше установили ограничения для секции */
 }
 
+.header__position{
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.logo_place_header{
+  width: 183px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__title{
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  width: 730px;
+  position: absolute;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__subtitle{
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.header__link{
+  text-decoration: none;
+}
+
+.header__main-illustration{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +85,15 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/* section description */
+
+/* section digits */
+
+/* section feinman */
+
+/* section kaufman */
+
+/* footer */
+
+
