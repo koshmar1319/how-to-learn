@@ -130,7 +130,7 @@
 
 .digits{
   display: block;
-  margin: 100px auto 100px;
+  margin: 100px auto;
 }
 
 .section-title{
@@ -190,7 +190,49 @@
 
 /* section feinman */
 
+.feynman{
+  margin-top: 100px;
+  position: relative;
+  height: 790px;
+}
 
+.feynman__img{
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.feynman__title{
+  width: 648px;
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.feynman__subtitle{
+  margin-top: 70px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.feynman__link{
+  text-decoration: none;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: 400;
+  color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
 
 /* section kaufman */
 
