@@ -352,7 +352,7 @@
   font-weight: 400;
   text-decoration: none;
   color: white;
-  /* padding: 0; */
+  padding: 0;
 }
 
 .footer__column-link:hover{
