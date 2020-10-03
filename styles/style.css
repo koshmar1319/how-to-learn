@@ -281,7 +281,7 @@
 .kaufman__triangle{
   background-image: url('../images/kaufman-triangle.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   width: 877px;
   height: 877px;
@@ -352,6 +352,7 @@
   font-weight: 400;
   text-decoration: none;
   color: white;
+  /* padding: 0; */
 }
 
 .footer__column-link:hover{
@@ -368,15 +369,6 @@
   flex-direction: column;
   margin: 20px 0 16px;
   list-style: none;
-}
-
-.footer__column-link{
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 400;
-  text-decoration: none;
-  color: white;
-  padding: 0;
 }
 
 .footer__social-icon_facebook{
