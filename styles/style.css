@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  /* выше установили ограничения для секции */
+  z-index: 1;
 }
 
 .logo{
@@ -74,7 +74,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__square-pic {
@@ -84,6 +84,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  z-index: -2;
 }
 
 /* section description */
@@ -201,7 +202,7 @@
   z-index: 0;
 }
 
-.feynman__img{
+.feinman__image{
   width: 867px;
   height: 637px;
   position: absolute;
@@ -364,28 +365,21 @@
   flex-direction: column;
 }
 
-.footer__social-icons{
-  display: flex;
-  flex-direction: column;
-  margin: 20px 0 16px;
-  list-style: none;
-}
-
-.footer__social-icon_facebook{
+.footer__column-link_facebook{
   background-image: url('../images/facebook_color_white.svg');
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 26px;
 }
 
-.footer__social-icon_vkontakte{
+.footer__column-link_vkontakte{
   background-image: url('../images/vk_color_white.svg');
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 26px;
 }
 
-.footer__social-icon_instagram{
+.footer__column-link_instagram{
   background-image: url('../images/instagram_color_white.svg');
   background-repeat: no-repeat;
   background-position: left center;
