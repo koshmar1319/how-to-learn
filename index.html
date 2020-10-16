@@ -4,8 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css"> -->
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -25,7 +23,7 @@
         <a class="header__link" href="#">Узнать &rarr;</a>
       </p>
 
-      <img class="header__main-illustration" src="images/header-image.png" alt="Печальный мальчик">
+      <img class="header__main-illustration" src="blocks/header/__main-illustration/header-image.png" alt="Печальный мальчик">
 
       <div class="header__square-pic"></div>
 
@@ -63,33 +61,33 @@
         <ul class="cards">
 
           <li class="cards__item">
-            <img src="images/cards-attention.png" alt="Изображение книги" class="cards__image">
+            <img src="blocks/cards/__image/cards-attention.png" alt="Изображение книги" class="cards__image">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
               мышление.</p>
           </li>
 
           <li class="cards__item">
-            <img src="images/cards-recall.png" alt="Изображение статуи" class="cards__image">
+            <img src="blocks/cards/__image/cards-recall.png" alt="Изображение статуи" class="cards__image">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </li>
 
           <li class="cards__item">
-            <img src="images/cards-interliving.png" alt="Изображение зала" class="cards__image">
+            <img src="blocks/cards/__image/cards-interliving.png" alt="Изображение зала" class="cards__image">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </li>
 
           <li class="cards__item">
-            <img src="images/cards-question.png" alt="Изображение здания" class="cards__image">
+            <img src="blocks/cards/__image/cards-question.png" alt="Изображение здания" class="cards__image">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
               волнует.</p>
           </li>
 
           <li class="cards__item">
-            <img src="images/cards-competence.png" alt="Изображение стопки книг" class="cards__image">
+            <img src="blocks/cards/__image/cards-competence.png" alt="Изображение стопки книг" class="cards__image">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
               владеете новой темой.</p>
@@ -107,11 +105,11 @@
 
         <div class="video__iframes">
 
-          <iframe class="video__iframe" id="ytplayer" type="text/html" width="515" height="316"
-            src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316"
+            src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
 
-          <iframe class="video__iframe" id="ytplayer" type="text/html" width="515" height="316"
-            src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316"
+            src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
 
         </div>
 
@@ -138,7 +136,7 @@
 
       <section class="feynman">
 
-        <img src="images/feynman.png" alt="Изображение Фейнмана" class="feinman__image">
+        <img src="blocks/feinman/__image/feynman.png" alt="Изображение Фейнмана" class="feinman__image">
 
         <h2 class="feynman__title">Метод Фейнмана</h2>
 
@@ -248,13 +246,13 @@
             повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </blockquote>
 
-          <h3 class="khan__quote-author">Джордж Лукас</h3>
+          <p class="khan__quote-author">Джордж Лукас</p>
 
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
 
           <div class="khan__book-container">
 
-            <img src="images/khan-book.jpg" alt="Изображение книги Кхана" class="khan__book-pick">
+            <img class="khan__book-pick" src="blocks/khan/__book-pick/khan-book.jpg" alt="Изображение книги Кхана">
 
             <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
 
@@ -263,7 +261,7 @@
         </div>
 
       </section>
-      <!--
+      
       <section class="kaufman">
 
         <h2 class="section-title_theme_dark section-title">Принципы обучения</h2>
@@ -329,9 +327,43 @@
 
       </section>
 
-      <section class="resources"></section> -->
+      <section class="resources">
+
+        <h2 class="section-title">Полезные ресурсы</h2>
+
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+
+        <ul class="resources__logo-zone">
+
+          <li class="resources__logo">
+            <a href="#">
+              <img src="blocks/resources/__logo/_arzamas/resources-arzamas.svg" alt="Логотип Арзамас">
+            </a>
+          </li>
+
+          <li class="resources__logo">
+            <a href="#">
+              <img src="blocks/resources/__logo/_n1/resources-n1.svg" alt="Логотип Н1">
+            </a>
+          </li>
+
+          <li class="resources__logo">
+            <a href="#">
+              <img src="blocks/resources/__logo/_strelka/resources-strelka.svg" alt="Логотип Стрелка">
+            </a>
+          </li>
+
+          <li class="resources__logo">
+            <a href="#">
+              <img src="blocks/resources/__logo/_polka/resources-polka.svg" alt="Логотип Полка">
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
 
       <div class="footer__columns">
 
@@ -364,7 +396,7 @@
 
       </div>
 
-    </footer> -->
+    </footer>
   </div>
 </body>
 
