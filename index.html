@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div class="page">
+  <div class="root">
     <header class="header">
 
       <a href="#" class="logo logo_place_header"></a>
@@ -25,7 +25,7 @@
 
       <img class="header__main-illustration" src="blocks/header/__main-illustration/header-image.png" alt="Печальный мальчик">
 
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
 
     </header>
     <main class="content">
@@ -105,11 +105,9 @@
 
         <div class="video__iframes">
 
-          <iframe class="video__iframe" width="515" height="316"
-            src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
 
-          <iframe class="video__iframe" width="515" height="316"
-            src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
 
         </div>
 
@@ -136,7 +134,7 @@
 
       <section class="feynman">
 
-        <img src="blocks/feinman/__image/feynman.png" alt="Изображение Фейнмана" class="feynman__image">
+        <img src="blocks/feynman/__image/feynman.png" alt="Изображение Фейнмана" class="feynman__image">
 
         <h2 class="feynman__title">Метод Фейнмана</h2>
 
@@ -152,7 +150,7 @@
 
         <p class="section-subtitle">Про учёбу и мозг</p>
 
-        <ul class="table digits__table">
+        <ul class="table">
 
           <li class="table__cell">
             <h3 class="table__heading">
@@ -323,7 +321,7 @@
 
         </ul>
 
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
 
       </section>
 
@@ -372,7 +370,7 @@
           <p class="footer__author">&copy; 2019. Кирилл Комарьков</p>
         </div>
 
-        <div class="footer__column footer__column_content_info">
+        <div class="footer__column">
           <nav>
             <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="footer__column-links">
@@ -383,13 +381,13 @@
           </nav>
         </div>
 
-        <div class="footer__column footer__column_content_social">
+        <div class="footer__column">
           <nav>
             <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
-              <li><a class="footer__column-link footer__column-link_facebook" href="#">Facebook</a></li>
-              <li><a class="footer__column-link footer__column-link_vkontakte" href="#">ВКонтакте</a></li>
-              <li><a class="footer__column-link footer__column-link_instagram" href="#">Instagram</a></li>
+              <li><a class="footer__column-link footer__column-link_icon_facebook" href="#">Facebook</a></li>
+              <li><a class="footer__column-link footer__column-link_icon_vkontakte" href="#">ВКонтакте</a></li>
+              <li><a class="footer__column-link footer__column-link_icon_instagram" href="#">Instagram</a></li>
             </ul>
           </nav>
         </div>

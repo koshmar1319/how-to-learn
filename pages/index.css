@@ -5,7 +5,7 @@
 /* Header */
 @import url("../blocks/header/header.css");
 @import url("../blocks/logo/logo.css");
-@import url("../blocks/logo/_place/_header/logo_place_header.css");
+@import url("../blocks/logo/_place/logo_place_header.css");
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__subtitle/header__subtitle.css");
 @import url("../blocks/header/__link/header__link.css");
@@ -37,11 +37,11 @@
 @import url("../blocks/oakley/oakley.css");
 
 /* Feinman */
-@import url("../blocks/feinman/feinman.css");
-@import url("../blocks/feinman/__image/feinman__image.css");
-@import url("../blocks/feinman/__title/feynman__title.css");
-@import url("../blocks/feinman/__subtitle/feynman__subtitle.css");
-@import url("../blocks/feinman/__link/feynman__link.css");
+@import url("../blocks/feynman/feynman.css");
+@import url("../blocks/feynman/__image/feynman__image.css");
+@import url("../blocks/feynman/__title/feynman__title.css");
+@import url("../blocks/feynman/__subtitle/feynman__subtitle.css");
+@import url("../blocks/feynman/__link/feynman__link.css");
 
 /* Digits */
 @import url("../blocks/digits/digits.css");
@@ -81,15 +81,14 @@
 /* Footer */
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__columns/footer__columns.css");
+@import url("../blocks/footer/__column/footer__column.css");
 @import url("../blocks/footer/__column/_content/footer__column_content_copyright.css");
-@import url("../blocks/logo/_place/_footer/logo_place_footer.css");
+@import url("../blocks/logo/_place/logo_place_footer.css");
 @import url("../blocks/footer/__author/footer__author.css");
-@import url("../blocks/footer/__column/_content/footer__column_content_info.css");
 @import url("../blocks/footer/__column-heading/footer__column-heading.css");
 @import url("../blocks/footer/__column-links/footer__column-links.css");
 @import url("../blocks/footer/__column-link/footer__column-link.css");
-@import url("../blocks/footer/__column/_content/footer__column_content_social.css");
-@import url("../blocks/footer/__column-link/_facebook/footer__column-link_facebook.css");
-@import url("../blocks/footer/__column-link/_vkontakte/footer__column-link_vkontakte.css");
-@import url("../blocks/footer/__column-link/_instagram/footer__column-link_instagram.css");
+@import url("../blocks/footer/__column-link/_icon/footer__column-link_icon_facebook.css");
+@import url("../blocks/footer/__column-link/_icon/footer__column-link_icon_vkontakte.css");
+@import url("../blocks/footer/__column-link/_icon/footer__column-link_icon_instagram.css");
 

@@ -1,9 +1,14 @@
 .logo_place_header{
-  background-image: url('../_header/logo_place_header.svg');
+  background-image: url('../_place/logo_place_header.svg');
   background-repeat: no-repeat;
   height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 2;
+  transition: opacity .3s;
+}
+
+.logo_place_header:hover{
+  opacity: 0.7;
 }

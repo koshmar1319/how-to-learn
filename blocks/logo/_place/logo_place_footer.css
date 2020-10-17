@@ -1,0 +1,10 @@
+.logo_place_footer{
+  background-image: url('../_place/logo_place_footer.svg');
+  background-repeat: no-repeat;
+  height: 35px;
+  transition: opacity .3s;
+}
+
+.logo_place_footer:hover{
+  opacity: 0.7;
+}
